@@ -6,7 +6,7 @@ import MagicButton from "./MagicButton";
 
 export function LampDemo() {
   return (
-    <LampContainer className="bg-black"> {/* Set the background color to black here */}
+    <LampContainer>
       <motion.h1
         initial={{ opacity: 0.5, y: 100 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -20,15 +20,18 @@ export function LampDemo() {
         Do you want to <br /> make a change?
       </motion.h1>
       
-      <p></p>
       
-      <a href="mailto:youarenothebest667@gmail.com">
-        <MagicButton
+      <p>
+        
+      </p>
+      <a href="mailto:youarenothebest667@gmail.comd">
+          <MagicButton
           title="Let's get in touch"
-          position="right"
-          icon={undefined}
-        />
-      </a>
+
+          position="right" icon={undefined}          />
+        </a>
+      
     </LampContainer>
+
   );
 }
