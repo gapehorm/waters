@@ -30,7 +30,7 @@ export function LampDemo() {
 
           position="right" icon={undefined}          />
         </a>
-      
+      <p className="mt-4 text-sm text-neutral-400">Made by Jovi Karchan</p>
     </LampContainer>
 
   );
